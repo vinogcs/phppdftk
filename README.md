@@ -15,8 +15,11 @@ Usage
 1. Initiating PdfTk class 
 	
 	**// With Server Path**
+
 	**$pdftk=new PdfTk($serverPath);**
+	
 	**//With Server Path and PDF File path**
+	
 	**$pdftk=new PdfTk($serverPath,$pdfFilePath);**
 
 2. Get Bookmarks
