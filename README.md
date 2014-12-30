@@ -14,15 +14,15 @@ Usage
 
 1. Initiating PdfTk class 
 	
-	**// With Server Path **
+	** // With Server Path **
 
-	**$pdftk=new PdfTk($serverPath);**
+	** $pdftk=new PdfTk($serverPath); **
 
-	**//With Server Path and PDF File path**
+	** //With Server Path and PDF File path **
 
-	**$pdftk=new PdfTk($serverPath,$pdfFilePath);**
+	** $pdftk=new PdfTk($serverPath,$pdfFilePath); **
 
 2. Get Bookmarks
 	
-		**$bookmarks=$pdftk->get_bookmarks();**
+		** $bookmarks=$pdftk->get_bookmarks(); **
 	
