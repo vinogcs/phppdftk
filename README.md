@@ -12,17 +12,15 @@ https://www.pdflabs.com/tools/pdftk-server/
 Usage
 =====
 
-1. Initiating PdfTk class 
+-1. Initiating PdfTk class 
 	
-	** // With Server Path **
+	**// With Server Path**<br />
+	**$pdftk=new PdfTk($serverPath);**<br />
+	**//With Server Path and PDF File path**<br />
+	**$pdftk=new PdfTk($serverPath,$pdfFilePath);**<br />
 
-	** $pdftk=new PdfTk($serverPath); **
+-2. Get Bookmarks
 
-	** //With Server Path and PDF File path **
-
-	** $pdftk=new PdfTk($serverPath,$pdfFilePath); **
-
-2. Get Bookmarks
 	
-		** $bookmarks=$pdftk->get_bookmarks(); **
+		**$bookmarks=$pdftk->get_bookmarks();**<br />
 	
